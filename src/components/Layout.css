@@ -1,0 +1,23 @@
+/* * {
+  background: #100e1d !important;
+} */
+
+.side {
+  background: url(../assert/Cloud-background.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(30, 33, 58);
+  opacity: 0.9;
+}
+.main {
+  grid-area: main;
+  background: #100e1d;
+}
